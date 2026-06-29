@@ -1,0 +1,11 @@
+Options -MultiViews -Indexes
+RewriteEngine On
+
+# Serve static files from root directly (including og.png, logo.svg, icons, etc.)
+RewriteRule ^(icons|uploads|css|js)/(.*)$ - [L]
+RewriteRule ^(icon-.*\.png|logo.jpg|logo.svg|og\.png|manifest\.json|favicon\.ico|make-og\.php|generate-icons\.php)$ - [L]
+
+# Route everything else through the front controller
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]

@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="gGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#7A5C0F"/>
+      <stop offset="35%"  stop-color="#C9962C"/>
+      <stop offset="65%"  stop-color="#EDD060"/>
+      <stop offset="100%" stop-color="#9A7218"/>
+    </linearGradient>
+    <linearGradient id="gText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#7A5C0F"/>
+      <stop offset="30%"  stop-color="#D4A853"/>
+      <stop offset="55%"  stop-color="#F0D888"/>
+      <stop offset="80%"  stop-color="#D4A853"/>
+      <stop offset="100%" stop-color="#7A5C0F"/>
+    </linearGradient>
+    <linearGradient id="gBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#9A7218"/>
+      <stop offset="40%"  stop-color="#D4A853"/>
+      <stop offset="60%"  stop-color="#EDD060"/>
+      <stop offset="100%" stop-color="#7A5C0F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="#060606"/>
+
+  <!-- Double-line gold border -->
+  <rect x="18"  y="18"  width="764" height="764" fill="none" stroke="url(#gBorder)" stroke-width="2.2"/>
+  <rect x="32"  y="32"  width="736" height="736" fill="none" stroke="url(#gBorder)" stroke-width="1.2" opacity="0.75"/>
+
+  <!-- ─────────── STARS ─────────── -->
+  <!-- Small left star -->
+  <polygon fill="url(#gGold)"
+    points="345,155 348,165 359,165 351,171 354,182 345,175 336,182 339,171 331,165 342,165"/>
+  <!-- Large centre star -->
+  <polygon fill="url(#gGold)"
+    points="400,132 406,152 427,152 411,164 417,184 400,172 383,184 389,164 373,152 394,152"/>
+  <!-- Small right star -->
+  <polygon fill="url(#gGold)"
+    points="455,155 458,165 469,165 461,171 464,182 455,175 446,182 449,171 441,165 452,165"/>
+
+  <!-- ─────────── LAUREL WREATH — LEFT ─────────── -->
+  <ellipse cx="308" cy="344" rx="27" ry="10" fill="url(#gGold)" transform="rotate(-28 308 344)"/>
+  <ellipse cx="286" cy="313" rx="27" ry="10" fill="url(#gGold)" transform="rotate(-53 286 313)"/>
+  <ellipse cx="278" cy="279" rx="26" ry="10" fill="url(#gGold)" transform="rotate(-76 278 279)"/>
+  <ellipse cx="287" cy="245" rx="25" ry="9"  fill="url(#gGold)" transform="rotate(-100 287 245)"/>
+  <ellipse cx="308" cy="216" rx="23" ry="8"  fill="url(#gGold)" transform="rotate(-122 308 216)"/>
+  <ellipse cx="335" cy="197" rx="20" ry="7"  fill="url(#gGold)" transform="rotate(-145 335 197)"/>
+  <!-- Bottom stem left -->
+  <ellipse cx="330" cy="366" rx="18" ry="7"  fill="url(#gGold)" transform="rotate(-14 330 366)"/>
+
+  <!-- ─────────── LAUREL WREATH — RIGHT ─────────── -->
+  <ellipse cx="492" cy="344" rx="27" ry="10" fill="url(#gGold)" transform="rotate(28 492 344)"/>
+  <ellipse cx="514" cy="313" rx="27" ry="10" fill="url(#gGold)" transform="rotate(53 514 313)"/>
+  <ellipse cx="522" cy="279" rx="26" ry="10" fill="url(#gGold)" transform="rotate(76 522 279)"/>
+  <ellipse cx="513" cy="245" rx="25" ry="9"  fill="url(#gGold)" transform="rotate(100 513 245)"/>
+  <ellipse cx="492" cy="216" rx="23" ry="8"  fill="url(#gGold)" transform="rotate(122 492 216)"/>
+  <ellipse cx="465" cy="197" rx="20" ry="7"  fill="url(#gGold)" transform="rotate(145 465 197)"/>
+  <!-- Bottom stem right -->
+  <ellipse cx="470" cy="366" rx="18" ry="7"  fill="url(#gGold)" transform="rotate(14 470 366)"/>
+
+  <!-- Centre bottom stem knot -->
+  <ellipse cx="400" cy="378" rx="16" ry="6" fill="url(#gGold)"/>
+  <ellipse cx="374" cy="370" rx="13" ry="5" fill="url(#gGold)" transform="rotate(-28 374 370)"/>
+  <ellipse cx="426" cy="370" rx="13" ry="5" fill="url(#gGold)" transform="rotate(28 426 370)"/>
+
+  <!-- ─────────── CROWN ─────────── -->
+  <!-- Crown points -->
+  <path fill="url(#gGold)"
+    d="M338 325
+       L344 262 L362 298 L380 252 L400 292 L420 252 L438 298 L456 262 L462 325 Z"/>
+  <!-- Crown base band -->
+  <path fill="url(#gGold)"
+    d="M332 325 L468 325 L462 342 L338 342 Z"/>
+  <!-- Gem circles on band -->
+  <circle cx="368" cy="333" r="5.5" fill="#060606" opacity="0.5"/>
+  <circle cx="400" cy="333" r="5.5" fill="#060606" opacity="0.5"/>
+  <circle cx="432" cy="333" r="5.5" fill="#060606" opacity="0.5"/>
+  <!-- Centre crown orb -->
+  <circle cx="400" cy="254" r="7" fill="url(#gGold)"/>
+
+  <!-- ─────────── TEXT ─────────── -->
+  <!-- ENKRIX -->
+  <text x="400" y="494"
+    text-anchor="middle"
+    fill="url(#gText)"
+    font-family="'Arial Black','Impact','Helvetica Neue',sans-serif"
+    font-size="112"
+    font-weight="900"
+    letter-spacing="16">ENKRIX</text>
+
+  <!-- DRIPPING IN ROYALTY -->
+  <text x="400" y="542"
+    text-anchor="middle"
+    fill="url(#gText)"
+    font-family="'Arial','Helvetica',sans-serif"
+    font-size="22"
+    font-weight="400"
+    letter-spacing="10">DRIPPING IN ROYALTY</text>
+</svg>

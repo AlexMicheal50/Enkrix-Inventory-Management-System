@@ -1,0 +1,21 @@
+/* Enkrix IMS — Global overrides (Tailwind handles most styles) */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Custom date/color input styling for dark theme */
+input[type="date"],
+input[type="color"] {
+  color-scheme: dark;
+}
+
+select option {
+  background: #1A1A1A;
+  color: #F0F0F0;
+}
+
+/* Print styles for reports */
+@media print {
+  aside, header, .btn-gold, .btn-outline, .btn-danger, form[method="POST"] { display: none !important; }
+  body { background: white !important; color: black !important; }
+  .card { border: 1px solid #ddd !important; background: white !important; }
+  table { font-size: 11px; }
+}

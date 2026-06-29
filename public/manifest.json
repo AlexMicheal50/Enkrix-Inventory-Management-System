@@ -1,0 +1,22 @@
+{
+  "name": "Enkrix Inventory Management",
+  "short_name": "Enkrix IMS",
+  "description": "Dripping in Royalty — Professional Inventory Management by Avolution AI LTD",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#060606",
+  "theme_color": "#D4A853",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/logo.jpg",     "sizes": "any",      "type": "image/jpeg" }
+  ],
+  "shortcuts": [
+    { "name": "Dashboard",   "url": "/dashboard",   "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Inventory",   "url": "/inventory",   "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Assignments", "url": "/assignments", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
